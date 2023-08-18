@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-image">
+      <p><img src="img/odin-lined.png" alt="odin logo" />ODIN</p>
+    </div>
+    <div class="right-side">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </p>
+
+      <p>You <em>know</em> you want to.</p>
+
+      <form>
+        <div class="fill-form">
+          <p>Let's do this</p>
+
+          <label for="first-name">FIRST NAME</label>
+          <input type="text" name="first-name" id="first-name" />
+
+          <label for="last-name">LAST NAME</label>
+          <input type="text" name="last-name" id="last-name" maxlength="747" />
+
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="phone-number">PHONE NUMBER</label>
+          <input type="tel" name="phone-number" id="phone-number" />
+
+          <label for="password">PASSWORD</label>
+          <input type="password" name="pwd" id="password" required />
+
+          <label for="confirm">CONFIRM PASSWORD</label>
+          <input type="password" name="pwd" id="password" required />
+        </div>
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
+    </div>
+  </body>
+</html>
